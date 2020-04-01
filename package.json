@@ -1,0 +1,26 @@
+{
+  "name": "enumy",
+  "version": "1.0.0",
+  "description": "Get data from an Enum",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib",
+    "test": "npm run build && jest"
+  },
+  "keywords": [
+    "enum",
+    "typescript"
+  ],
+  "author": "Zoltan Radics <zoltan.radics@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.1.4",
+    "jest": "^25.2.4",
+    "ts-jest": "^25.3.0",
+    "typescript": "^3.8.3"
+  }
+}
