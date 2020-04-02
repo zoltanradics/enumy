@@ -1,8 +1,8 @@
 {
-  "name": "enumy",
+  "name": "@zoltanradics/enumy",
   "version": "1.0.0",
   "description": "Get data from an Enum",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src --out-dir ./lib",
     "test": "npm run build && jest"
